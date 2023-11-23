@@ -36,7 +36,7 @@ import typography from "assets/theme/base/typography";
 import BuildByDevelopers from "layouts/dashboard/components/BuildByDevelopers";
 import WorkWithTheRockets from "layouts/dashboard/components/WorkWithTheRockets";
 import Projects from "layouts/dashboard/components/Projects";
-import OrderOverview from "layouts/dashboard/components/OrderOverview";
+// import OrderOverview from "layouts/dashboard/components/OrderOverview";
 
 // Data
 import reportsBarChartData from "layouts/dashboard/data/reportsBarChartData";
@@ -52,10 +52,10 @@ function Dashboard() {
       <SoftBox py={3}>
         <SoftBox mb={3}>
           <Grid container spacing={3}>
-            <Grid item xs={12} sm={6} xl={3}>
+            <Grid item xs={24} sm={12} xl={6}>
               <MiniStatisticsCard
-                title={{ text: "today's money" }}
-                count="$53,000"
+                title={{ text: "available GPU's" }}
+                count="53"
                 percentage={{ color: "success", text: "+55%" }}
                 icon={{ color: "info", component: "paid" }}
               />
@@ -70,13 +70,13 @@ function Dashboard() {
             </Grid>
             <Grid item xs={12} sm={6} xl={3}>
               <MiniStatisticsCard
-                title={{ text: "new clients" }}
-                count="+3,462"
+                title={{ text: "new models" }}
+                count="36"
                 percentage={{ color: "error", text: "-2%" }}
                 icon={{ color: "info", component: "emoji_events" }}
               />
             </Grid>
-            <Grid item xs={12} sm={6} xl={3}>
+            {/* <Grid item xs={12} sm={6} xl={3}>
               <MiniStatisticsCard
                 title={{ text: "sales" }}
                 count="$103,430"
@@ -86,7 +86,7 @@ function Dashboard() {
                   component: "shopping_cart",
                 }}
               />
-            </Grid>
+            </Grid> */}
           </Grid>
         </SoftBox>
         <SoftBox mb={3}>
@@ -115,16 +115,16 @@ function Dashboard() {
             </Grid>
             <Grid item xs={12} lg={7}>
               <GradientLineChart
-                title="Sales Overview"
+                title="Gpu usage"
                 description={
                   <SoftBox display="flex" alignItems="center">
                     <SoftBox fontSize={size.lg} color="success" mb={0.3} mr={0.5} lineHeight={0}>
                       <Icon className="font-bold">arrow_upward</Icon>
                     </SoftBox>
                     <SoftTypography variant="button" color="text" fontWeight="medium">
-                      4% more{" "}
+                      14% more{" "}
                       <SoftTypography variant="button" color="text" fontWeight="regular">
-                        in 2021
+                        since last week
                       </SoftTypography>
                     </SoftTypography>
                   </SoftBox>
@@ -140,7 +140,7 @@ function Dashboard() {
             <Projects />
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <OrderOverview />
+            {/* <OrderOverview /> */}
           </Grid>
         </Grid>
       </SoftBox>

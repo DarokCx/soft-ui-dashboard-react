@@ -19,12 +19,12 @@ const gradientLineChartData = {
     {
       label: "Mobile apps",
       color: "info",
-      data: [50, 40, 300, 220, 500, 250, 400, 230, 500],
+      data: [5, 4, 30, 22, 50, 25, 40, 23, 50],
     },
     {
       label: "Websites",
       color: "dark",
-      data: [30, 90, 40, 140, 290, 290, 340, 230, 400],
+      data: [3, 9, 4, 14, 29, 29, 34, 23, 80],
     },
   ],
 };

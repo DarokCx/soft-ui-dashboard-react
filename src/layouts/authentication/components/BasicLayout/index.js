@@ -91,7 +91,7 @@ function BasicLayout({ title, description, image, children }) {
 
 // Setting default values for the props of BasicLayout
 BasicLayout.defaultProps = {
-  title: "",
+  title: "oiewhffhusd",
   description: "",
 };
 

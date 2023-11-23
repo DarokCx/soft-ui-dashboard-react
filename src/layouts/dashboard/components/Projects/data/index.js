@@ -47,7 +47,7 @@ export default function data() {
 
   return {
     columns: [
-      { name: "companies", align: "left" },
+      { name: "models", align: "left" },
       { name: "members", align: "left" },
       { name: "budget", align: "center" },
       { name: "completion", align: "center" },
@@ -55,7 +55,7 @@ export default function data() {
 
     rows: [
       {
-        companies: [logoXD, "Soft UI XD Version"],
+        models: [logoXD, "RWKV-V5"],
         members: (
           <SoftBox display="flex" py={1}>
             {avatars([
@@ -68,7 +68,7 @@ export default function data() {
         ),
         budget: (
           <SoftTypography variant="caption" color="text" fontWeight="medium">
-            $14,000
+            $1,400,000
           </SoftTypography>
         ),
         completion: (
@@ -78,18 +78,17 @@ export default function data() {
         ),
       },
       {
-        companies: [logoAtlassian, "Add Progress Track"],
+        models: [logoAtlassian, "My-First-Model"],
         members: (
           <SoftBox display="flex" py={1}>
             {avatars([
               [team2, "Romina Hadid"],
-              [team4, "Jessica Doe"],
             ])}
           </SoftBox>
         ),
         budget: (
           <SoftTypography variant="caption" color="text" fontWeight="medium">
-            $3,000
+            $300
           </SoftTypography>
         ),
         completion: (
@@ -99,7 +98,7 @@ export default function data() {
         ),
       },
       {
-        companies: [logoSlack, "Fix Platform Errors"],
+        models: [logoSlack, "Rwkv-V4-neo"],
         members: (
           <SoftBox display="flex" py={1}>
             {avatars([
@@ -120,7 +119,7 @@ export default function data() {
         ),
       },
       {
-        companies: [logoSpotify, "Launch our Mobile App"],
+        models: [logoSpotify, "French Translator"],
         members: (
           <SoftBox display="flex" py={1}>
             {avatars([
@@ -143,7 +142,7 @@ export default function data() {
         ),
       },
       {
-        companies: [logoJira, "Add the New Pricing Page"],
+        models: [logoJira, "Ai-Town-Model"],
         members: (
           <SoftBox display="flex" py={1}>
             {avatars([[team4, "Jessica Doe"]])}
@@ -151,7 +150,7 @@ export default function data() {
         ),
         budget: (
           <SoftTypography variant="caption" color="text" fontWeight="medium">
-            $500
+            $5,000,000
           </SoftTypography>
         ),
         completion: (
@@ -161,7 +160,7 @@ export default function data() {
         ),
       },
       {
-        companies: [logoInvesion, "Redesign New Online Shop"],
+        models: [logoInvesion, "Model-Trainer-v2"],
         members: (
           <SoftBox display="flex" py={1}>
             {avatars([
