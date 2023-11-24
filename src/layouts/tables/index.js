@@ -28,7 +28,7 @@ import Table from "examples/Tables/Table";
 
 // Data
 import authorsTableData from "layouts/tables/data/authorsTableData";
-import projectsTableData from "layouts/tables/data/projectsTableData";
+import projectsTableData from "layouts/dashboard/components/Projects/data/index.js";
 
 function Tables() {
   const { columns, rows } = authorsTableData;

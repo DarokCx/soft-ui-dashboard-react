@@ -95,7 +95,7 @@ export default function data() {
           <SoftBox width="8rem" textAlign="left">
             <SoftProgress value={10} color="info" variant="gradient" label={false} />
           </SoftBox>
-        ),
+        ), 
       },
       {
         models: [logoSlack, "Rwkv-V4-neo"],
