@@ -21,7 +21,7 @@ import buttonText from "assets/theme/components/button/text";
 
 const button = {
   defaultProps: {
-    disableRipple: true,
+    // disableRipple: false,
   },
   styleOverrides: {
     root: { ...root },

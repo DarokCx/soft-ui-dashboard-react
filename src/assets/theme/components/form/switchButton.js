@@ -29,7 +29,7 @@ const { md } = boxShadows;
 
 const switchButton = {
   defaultProps: {
-    disableRipple: true,
+    // disableRipple: false,
   },
 
   styleOverrides: {
