@@ -12,6 +12,7 @@
     "url": "git+https://github.com/creativetimofficial/soft-ui-dashboard-react.git"
   },
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object":"7.21.11",    
     "@emotion/cache": "11.11.0",
     "@emotion/react": "11.11.0",
     "@emotion/styled": "11.11.0",

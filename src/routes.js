@@ -39,6 +39,7 @@ Coded by www.creative-tim.com
 import Dashboard from "layouts/dashboard";
 import Marketplace from "layouts/marketplace";
 import Tables from "layouts/tables";
+import Train from "layouts/train";
 import Billing from "layouts/billing";
 // import VirtualReality from "layouts/virtual-reality";
 import RTL from "layouts/rtl";
@@ -93,15 +94,16 @@ const routes = [
     component: <Billing />,
     noCollapse: true,
   },
-  // {
-  //   type: "collapse",
-  //   name: "Virtual Reality",
-  //   key: "virtual-reality",
-  //   route: "/virtual-reality",
-  //   icon: <Cube size="12px" />,
-  //   component: <VirtualReality />,
-  //   noCollapse: true,
-  // },
+  {
+    type: "collapse",
+    name: "Train",
+    key: "train",
+    route: "/train",
+    icon: <Office size="12px" />,
+    component: <Train />,
+    noCollapse: true,
+  },
+
   {
     type: "collapse",
     name: "RTL",
@@ -111,7 +113,10 @@ const routes = [
     component: <RTL />,
     noCollapse: true,
   },
-  { type: "title", title: "Account Pages", key: "account-pages" },
+  { type: "title",
+    title: "Account Pages", 
+    key: "account-pages" 
+  },
   {
     type: "collapse",
     name: "Profile",
