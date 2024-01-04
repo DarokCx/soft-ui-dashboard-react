@@ -18,9 +18,10 @@ import SoftButton from "components/SoftButton";
 import BasicLayout from "layouts/authentication/components/BasicLayout";
 import Socials from "layouts/authentication/components/Socials";
 import Separator from "layouts/authentication/components/Separator";
+import CoverLayout from "layouts/authentication/components/CoverLayout";
 
 // Images
-import curved6 from "assets/images/curved-images/curved14.jpg";
+import curved6 from "assets/images/curved-images/Recursalaiprofile.png";
 
 function SignUp() {
   const [agreement, setAgremment] = useState(true);
@@ -28,11 +29,17 @@ function SignUp() {
   const handleSetAgremment = () => setAgremment(!agreement);
 
   return (
-    <BasicLayout
-      title="Welcome!"
-      description="Please Login or Sign up to continue using our app."
+    // <BasicLayout
+    //   title="Welcome!"
+    //   description="Please Login or Sign up to continue using our app."
+    //   image={curved6}
+    // >
+    <CoverLayout
+      title="Welcome back"
+      description="Enter your email and password to sign in"
       image={curved6}
     >
+
       <Card>
         <SoftBox p={3} mb={1} textAlign="center">
           <SoftTypography variant="h5" fontWeight="medium">
@@ -97,7 +104,7 @@ function SignUp() {
           </SoftBox>
         </SoftBox>
       </Card>
-    </BasicLayout>
+    </CoverLayout>
   );
 }
 

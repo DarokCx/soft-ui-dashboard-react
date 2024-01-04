@@ -26,8 +26,7 @@ function SignIn() {
 
   return (
     <CoverLayout
-      title="Welcome back"
-      description="Enter your email and password to sign in"
+      title="Welcome !"
       image={curved9}
     >
       <SoftBox component="form" role="form">

@@ -36,7 +36,7 @@ function BasicLayout({ title, description, image, children }) {
               rgba(gradients.dark.state, 0.6)
             )}, url(${image})`,
           backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundPosition: "left",
           backgroundRepeat: "no-repeat",
         }}
       >
